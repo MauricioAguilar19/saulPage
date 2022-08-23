@@ -1,0 +1,33 @@
+%colorTexto{
+    color: rgb(177, 35, 35);
+}
+%colorTextohover{
+    color: rgba(83, 169, 255, 0.843);
+}
+%colorFondoPyN{
+    background-color: rgb(0, 0, 0);
+    border-radius:  10px;
+}
+%separacionParrafos{
+    padding: 1.3rem;
+    
+    font-size: 1rem;
+}
+%fadeanimacion{
+     
+        animation: fadein 1.2s; 
+       }
+       @keyframes fadein {
+        0% {
+        opacity:0;
+        }
+        50%{
+        opacity:0.5;
+        }
+        100% {
+        opacity:1;
+        }
+       }
+%colorModal{
+    background-color: rgba(167, 124, 220, 0.646);
+}

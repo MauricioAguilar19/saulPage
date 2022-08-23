@@ -1,0 +1,88 @@
+@media screen and (min-width:765px){
+    header{
+        margin-bottom: 1rem;
+        width: 100%; }
+    .contenidoInflables{
+        display: grid;
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "trampolinTexto" ".carousel";
+} 
+.contenidoInflables .inf1 .brin1 img {
+    width: 400px;
+    height: 400px;
+}
+ 
+.contenidoInflables .brin1{
+    
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: .5rem;
+    
+
+}
+.contenidoInflables .inf1 .etiqueta{
+    width: 100%;
+    padding: 1rem;
+    
+    
+
+}
+footer{
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    
+    
+    }
+    .textoN{ 
+        padding: 3rem;
+        h2{ 
+            padding: 1rem;
+            font-size: 2rem;
+        }
+    p .n1{
+        padding: 1.3rem;
+    
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        margin-top: -1.5rem;
+    }
+    p .n2{
+        
+    
+    font-size: 1.5rem;
+        margin-bottom: .5rem;
+        margin-top: -1.5rem;
+    }
+    p .n3{
+        padding: 1.3rem;
+    
+    font-size: 1.5rem;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        
+    } }
+    footer{
+        margin-top: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: space-around;
+        align-items: center;
+        background-color: transparent; }
+        .redesSociales a{
+            padding: 2rem;
+        }
+}

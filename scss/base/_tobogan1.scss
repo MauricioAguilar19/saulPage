@@ -1,0 +1,69 @@
+.contenidoInflables{
+    display: grid;
+    width: 100%;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-areas: "trampolinTexto"
+                         ".carousel";
+                         h1{
+                            text-align: center;
+                            padding: 2rem;
+                            width: 100%;
+                            color: rgb(177, 35, 35);
+                        }
+                         img{
+                            width: 100%;
+                            height: 400px;
+                            background-size: contain;
+                        }
+                    .inf1 p{
+                        line-height :2.3rem;
+                    } }
+.modal-title{
+    text-align: center;
+}
+.etiqueta{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: -4rem;
+    .intento1{
+        padding:.5rem;
+    } 
+
+    .btn1{
+        color: rgb(177, 35, 35);
+        background-color: rgba(76, 206, 246, 0.665);
+        border-color: rgb(177, 35, 35);
+        border-radius: 1rem;
+        padding: 0.5rem;
+    }
+}
+.modal-footer .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgatra{
+    margin-bottom: 15.5rem;
+}
+.modal-body{
+    @extend %colorModal;
+}
+.modal-header{
+    @extend %colorModal;
+}
+div .modal-footer{
+    @extend %colorModal;
+}
+.carousel-caption h5{
+    color: rgb(62, 54, 167);
+}
+

@@ -1,0 +1,18 @@
+
+body{
+    background-image: url("../img/fondoSitio.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+h1{
+  @extend %colorTexto;
+}
+h2{
+  @extend %colorTexto;
+}
+p{
+  @extend %colorTexto;
+}

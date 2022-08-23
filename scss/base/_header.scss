@@ -1,0 +1,51 @@
+@import "base/extend";
+header{
+    margin-bottom: 1rem;
+    width: 100%;
+    .logoMexiland {
+        img{
+            padding: 0.4rem;
+        }
+    }
+}
+div .navbar{
+    padding-left: 1rem;
+    width: 100%;
+    padding: 1rem;
+        font-size: 1.2rem;
+      text-align: center;
+      @extend %colorTexto;
+                text-decoration: none;
+
+}
+div ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem;
+    li{
+        font-size: 1.2rem;
+        padding: 0.3rem;
+    }
+}
+
+ul .dropdown-menu{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    
+}
+.dropdown-menu li a:hover{
+    background-color: transparent;
+}
+.dropdown-menu li a{
+    @extend %colorTexto;
+}
+li .nav-link {
+    @extend %colorTexto;
+    a{
+        padding-bottom: 2px;
+        @extend %colorTexto;
+    }
+}

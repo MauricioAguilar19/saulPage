@@ -1,0 +1,40 @@
+.nosotros{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: "presentacion"
+                         "textoN"
+    ;
+    text-align: center;
+}
+.presentacion{
+    padding: 1.2rem;
+    h1{
+        font-size: 2rem;
+    }
+  
+}
+.textoN{ 
+    padding: 1.2rem;
+    h2{ 
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+.n1{
+    @extend %separacionParrafos;
+    margin-bottom: 1rem;
+    margin-top: -1.5rem;
+}
+.n2{
+    @extend %separacionParrafos;
+    margin-bottom: .5rem;
+    margin-top: -1.5rem;
+}
+.n3{
+    padding: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+ }

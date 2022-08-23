@@ -1,0 +1,26 @@
+footer{
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    
+    @extend %colorTexto;
+    div{
+        padding: 2px;
+    }
+    ul a{
+        padding: 0.2rem;
+    }
+}
+.logoFooter{
+    a{
+        text-decoration: none;
+        @extend %colorTexto;
+    }
+    a:hover{
+        @extend %colorTextohover;
+    }
+}

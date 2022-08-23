@@ -1,0 +1,20 @@
+.redesInflables{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+.redes{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.redes div img{
+    height: 8rem;
+}
+.redes .res1, .res2 a{
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,362 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Carter One', cursive; }
+
+body {
+  background-image: url("../img/fondoSitio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+h1, h2, p, div .navbar, .dropdown-menu li a, li .nav-link, li .nav-link a, footer, .logoFooter a {
+  color: #b12323; }
+
+.logoFooter a:hover, nav a:hover, li .nav-link:hover, li .dropdown-item:hover {
+  color: rgba(83, 169, 255, 0.843); }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 10px; }
+
+.textoN .n1, .textoN .n2 {
+  padding: 1.3rem;
+  font-size: 1rem; }
+
+.contenidoInflables, .secoP, footer, .btn1, .trampolinTexto, .textoN, .presentacion, .redes {
+  animation: fadein 1.2s; }
+
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+
+.modal-body, .modal-header, div .modal-footer {
+  background-color: rgba(167, 124, 220, 0.646); }
+
+header {
+  margin-bottom: 1rem;
+  width: 100%; }
+  header .logoMexiland img {
+    padding: 0.4rem; }
+
+div .navbar {
+  padding-left: 1rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none; }
+
+div ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem; }
+  div ul li {
+    font-size: 1.2rem;
+    padding: 0.3rem; }
+
+ul .dropdown-menu {
+  background-color: transparent;
+  border: none;
+  text-decoration: none; }
+
+.dropdown-menu li a:hover {
+  background-color: transparent; }
+
+li .nav-link a {
+  padding-bottom: 2px; }
+
+/*index*/
+.contenidoInflables {
+  display: grid;
+  width: 100%;
+  margin-bottom: 5rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-template-areas: "trampolinTexto" ".carousel"; }
+  .contenidoInflables h1 {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    color: #b12323; }
+
+.contenidoInflables {
+  display: grid;
+  width: 100%;
+  margin-top: -3rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-template-areas: "trampolinTexto" ".carousel"; }
+  .contenidoInflables h1 {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    color: #b12323; }
+  .contenidoInflables img {
+    width: 100%;
+    height: 400px;
+    background-size: contain; }
+  .contenidoInflables .inf1 p {
+    line-height: 2.3rem; }
+
+.modal-title {
+  text-align: center; }
+
+.etiqueta {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: -4rem; }
+  .etiqueta .intento1 {
+    padding: .5rem; }
+  .etiqueta .btn1 {
+    color: #b12323;
+    background-color: rgba(76, 206, 246, 0.665);
+    border-color: #b12323;
+    border-radius: 1rem;
+    padding: 0.5rem; }
+
+.modal-footer .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imgatra {
+  margin-bottom: 15.5rem; }
+
+.carousel-caption h5 {
+  color: #3e36a7; }
+
+.contenidoInflables .inf1 .brin1 img {
+  width: 300px;
+  height: 350px; }
+
+.imgatraAgua {
+  margin-bottom: 16rem; }
+
+.nosotros {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas: "presentacion" "textoN";
+  text-align: center; }
+
+.presentacion {
+  padding: 1.2rem; }
+  .presentacion h1 {
+    font-size: 2rem; }
+
+.textoN {
+  padding: 1.2rem; }
+  .textoN h2 {
+    padding: 1rem;
+    font-size: 1.2rem; }
+  .textoN .n1 {
+    margin-bottom: 1rem;
+    margin-top: -1.5rem; }
+  .textoN .n2 {
+    margin-bottom: .5rem;
+    margin-top: -1.5rem; }
+  .textoN .n3 {
+    padding: 2rem;
+    margin-bottom: 2rem; }
+
+.redesInflables {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center; }
+
+.redes {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.redes div img {
+  height: 8rem; }
+
+.redes .res1, .res2 a {
+  margin-bottom: 2rem; }
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent; }
+  footer div {
+    padding: 2px; }
+  footer ul a {
+    padding: 0.2rem; }
+
+.logoFooter a {
+  text-decoration: none; }
+
+a {
+  display: inline-block;
+  position: relative;
+  color: #d3acff;
+  text-decoration: none; }
+
+a:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  transition: all .6s; }
+
+a:hover:after {
+  width: 100%;
+  background: #d3acff; }
+
+.titulo {
+  animation: bounce1 .5s alternate infinite ease-in;
+  -o-animation: bounce1 .5s alternate infinite ease-in; }
+
+@keyframes bounce1 {
+  from {
+    transform: translateY(0px); }
+  to {
+    transform: translateY(-15px); } }
+
+-o-keyframes bounce from {
+  transform: translateY(0px); }
+
+-o-keyframes bounce to {
+  transform: translateY(-15px); }
+
+.etiqueta .btn1:hover {
+  color: #b12323;
+  background-color: rgba(120, 192, 255, 0.541);
+  border-color: transparent;
+  transform: scale(1.2);
+  transition: 1s; }
+
+.inf1 .imgInf {
+  animation-duration: 1s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-right: 100%; }
+  to {
+    margin-left: 0%; } }
+
+footer a:hover {
+  transform: scale(1.2);
+  transition: 0.5s; }
+
+@media screen and (min-width: 765px) {
+  header {
+    margin-bottom: 1rem;
+    width: 100%; }
+  .contenidoInflables {
+    display: grid;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "trampolinTexto" ".carousel"; }
+  .contenidoInflables .inf1 .brin1 img {
+    width: 400px;
+    height: 400px; }
+  .contenidoInflables .brin1 {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: .5rem; }
+  .contenidoInflables .inf1 .etiqueta {
+    width: 100%;
+    padding: 1rem; }
+  footer {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent; }
+  .textoN {
+    padding: 3rem; }
+    .textoN h2 {
+      padding: 1rem;
+      font-size: 2rem; }
+    .textoN p .n1 {
+      padding: 1.3rem;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      margin-top: -1.5rem; }
+    .textoN p .n2 {
+      font-size: 1.5rem;
+      margin-bottom: .5rem;
+      margin-top: -1.5rem; }
+    .textoN p .n3 {
+      padding: 1.3rem;
+      font-size: 1.5rem;
+      padding: 2rem;
+      margin-bottom: 2rem; }
+  footer {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent; }
+  .redesSociales a {
+    padding: 2rem; } }
+
+h1, h2, p, div .navbar, .dropdown-menu li a, li .nav-link, li .nav-link a, footer, .logoFooter a {
+  color: #b12323; }
+
+.logoFooter a:hover, nav a:hover, li .nav-link:hover, li .dropdown-item:hover {
+  color: rgba(83, 169, 255, 0.843); }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 10px; }
+
+.textoN .n1, .textoN .n2 {
+  padding: 1.3rem;
+  font-size: 1rem; }
+
+.contenidoInflables, .secoP, footer, .btn1, .trampolinTexto, .textoN, .presentacion, .redes {
+  animation: fadein 1.2s; }
+
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+
+.modal-body, .modal-header, div .modal-footer {
+  background-color: rgba(167, 124, 220, 0.646); }

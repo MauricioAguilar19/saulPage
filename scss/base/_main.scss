@@ -1,0 +1,26 @@
+/*index*/
+.contenidoInflables{
+    display: grid;
+    width: 100%;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-areas: "trampolinTexto"
+                         ".carousel";
+    h1{
+        margin-top: 3rem;
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        color: rgb(177, 35, 35);
+    }
+}
+.carousel-control-prev-icon{
+    @extend %colorFondoPyN;
+}
+.carousel-control-next-icon{
+    @extend %colorFondoPyN;
+    
+}

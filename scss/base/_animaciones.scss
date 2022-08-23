@@ -1,0 +1,104 @@
+a {
+    display: inline-block;
+    position: relative;
+    color: rgb(211, 172, 255);
+    text-decoration: none;
+    }
+    a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    transition: all .6s;
+    }
+    a:hover:after {
+    width: 100%;
+    background: rgb(211, 172, 255);
+    }
+
+nav a:hover {
+    @extend %colorTextohover;
+} 
+li .nav-link:hover{
+    @extend %colorTextohover;
+} 
+li .dropdown-item:hover{
+    @extend %colorTextohover;
+}
+
+
+
+.titulo{animation: bounce1 .5s alternate infinite ease-in;
+-o-animation: bounce1 .5s alternate infinite ease-in;}
+
+@keyframes bounce1{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-15px);
+    }
+}
+-o-keyframes bounce{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-15px);
+    }
+}
+
+.etiqueta{
+    .btn1:hover{
+        color: rgb(177, 35, 35);
+        background-color: rgba(120, 192, 255, 0.541);
+        border-color: transparent;
+  
+        transform: scale(1.2);
+        transition: 1s;
+    
+          }
+    }
+    .inf1 .imgInf {
+        animation-duration: 1s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-right: 100%;
+          
+        }
+      
+        to {
+          margin-left: 0%;
+          
+        }
+      }
+      .contenidoInflables{
+        @extend %fadeanimacion;
+      }
+      .secoP {
+        @extend %fadeanimacion;
+       }
+       footer{
+        @extend %fadeanimacion;
+       }
+       .btn1{
+        @extend %fadeanimacion;
+       }
+       .trampolinTexto{
+        @extend %fadeanimacion;
+       }
+       .textoN{@extend %fadeanimacion;}
+       .presentacion{
+        @extend %fadeanimacion;
+       }
+       .redes{
+        @extend %fadeanimacion;
+       }
+footer a:hover{
+    transform: scale(1.2);
+        transition: 0.5s;
+}
