@@ -92,6 +92,10 @@ li .nav-link a {
     width: 100%;
     color: #b12323; }
 
+.logoMexiland img {
+  width: 2.8rem;
+  height: 2.8rem; }
+
 .contenidoInflables {
   display: grid;
   width: 100%;
@@ -223,6 +227,13 @@ footer {
 
 .logoFooter a {
   text-decoration: none; }
+
+.redesSociales img {
+  width: 2rem;
+  height: 2rem; }
+
+.redesSociales ul {
+  list-style: none; }
 
 a {
   display: inline-block;
