@@ -5,7 +5,7 @@
   font-family: 'Carter One', cursive; }
 
 body {
-  background-image: url("../img/fondoSitio.jpg");
+  background-image: url("../img/fondoSitio.webp");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
