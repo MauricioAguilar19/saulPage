@@ -159,8 +159,9 @@ li .nav-link a {
   color: #3e36a7; }
 
 .contenidoInflables .inf1 .brin1 img {
-  width: 300px;
-  height: 350px; }
+  width: 360px;
+  height: 400px;
+  background-size: contain; }
 
 .imgatraAgua {
   margin-bottom: 17rem; }
@@ -234,6 +235,10 @@ footer {
 
 .redesSociales ul {
   list-style: none; }
+
+.logoFooter {
+  width: 2.8rem;
+  height: 2.8rem; }
 
 a {
   display: inline-block;
