@@ -139,7 +139,16 @@ li .nav-link a {
   justify-content: center;
   align-items: center; }
 
-.imgatra {
+.imgatra1 {
+  margin-bottom: 17.5rem; }
+
+.imgatra2 {
+  margin-bottom: 13.5rem; }
+
+.imgatra3 {
+  margin-bottom: 17.5rem; }
+
+.imgatra4 {
   margin-bottom: 15.5rem; }
 
 .carousel-caption h5 {
@@ -150,7 +159,7 @@ li .nav-link a {
   height: 350px; }
 
 .imgatraAgua {
-  margin-bottom: 16rem; }
+  margin-bottom: 17rem; }
 
 .nosotros {
   display: grid;
