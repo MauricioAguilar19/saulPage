@@ -60,19 +60,19 @@ li .dropdown-item:hover{
     
           }
     }
-    .inf1 .imgInf {
+    .inf1 img{
         animation-duration: 1s;
         animation-name: slidein;
       }
       
       @keyframes slidein {
         from {
-          margin-right: 100%;
+          margin-left: 100%;
           
         }
       
         to {
-          margin-left: 0%;
+          margin-right: 0%;
           
         }
       }

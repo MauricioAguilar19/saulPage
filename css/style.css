@@ -265,15 +265,15 @@ a:hover:after {
   transform: scale(1.2);
   transition: 1s; }
 
-.inf1 .imgInf {
+.inf1 img {
   animation-duration: 1s;
   animation-name: slidein; }
 
 @keyframes slidein {
   from {
-    margin-right: 100%; }
+    margin-left: 100%; }
   to {
-    margin-left: 0%; } }
+    margin-right: 0%; } }
 
 footer a:hover {
   transform: scale(1.2);
