@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   min-height: 100vh; }
 
-h1, h2, p, div .navbar, .dropdown-menu li a, li .nav-link, li .nav-link a, footer, .logoFooter a {
+h1, h2, p, div .navbar, .dropdown-menu li a, li .nav-link, li .nav-link a, .logoFooter a {
   color: #b12323; }
 
 .logoFooter a:hover, nav a:hover, li .nav-link:hover, li .dropdown-item:hover {
@@ -214,17 +214,17 @@ li .nav-link a {
   margin-bottom: 2rem; }
 
 footer {
-  margin-top: auto;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  margin-top: auto; }
+
+.footerR {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  background-color: transparent; }
-  footer div {
-    padding: 2px; }
-  footer ul a {
-    padding: 0.2rem; }
+  justify-content: center;
+  text-align: center;
+  padding: 1rem; }
 
 .logoFooter a {
   text-decoration: none; }
@@ -239,6 +239,9 @@ footer {
 .logoFooter img {
   width: 2rem;
   height: 2.2rem; }
+
+.derechos {
+  text-align: center; }
 
 a {
   display: inline-block;
@@ -320,14 +323,6 @@ footer a:hover {
   .contenidoInflables .inf1 .etiqueta {
     width: 100%;
     padding: 1rem; }
-  footer {
-    margin-top: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: transparent; }
   .textoN {
     padding: 3rem; }
     .textoN h2 {
@@ -349,16 +344,16 @@ footer a:hover {
       margin-bottom: 2rem; }
   footer {
     margin-top: auto;
+    width: 100%; }
+  .footerR {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: transparent; }
-  .redesSociales a {
-    padding: 2rem; } }
+    background-color: transparent; } }
 
-h1, h2, p, div .navbar, .dropdown-menu li a, li .nav-link, li .nav-link a, footer, .logoFooter a {
+h1, h2, p, div .navbar, .dropdown-menu li a, li .nav-link, li .nav-link a, .logoFooter a {
   color: #b12323; }
 
 .logoFooter a:hover, nav a:hover, li .nav-link:hover, li .dropdown-item:hover {
